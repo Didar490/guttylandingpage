@@ -466,10 +466,22 @@ body {
         font-size: 18px;
     }
     
-    /* Hide floating icons on mobile for cleaner look */
-    .floating-icons {
-        display: none;
+    /* Adjust floating icons for tablet */
+    .floating-icon {
+        width: 40px;
+        height: 40px;
     }
+    
+    /* Bring icons closer on tablet */
+    .icon-1 { left: -40px; }
+    .icon-2 { right: -50px; }
+    .icon-3 { right: -20px; }
+    .icon-4 { left: -35px; }
+    .icon-5 { left: -60px; }
+    .icon-6 { left: 20px; }
+    .icon-7 { right: -40px; }
+    .icon-8 { right: -15px; }
+    .icon-9 { right: 15px; }
     
     .phone-frame {
         width: 280px;
@@ -508,6 +520,51 @@ body {
     
     .hero-title {
         font-size: 2.5rem;
+    }
+    
+    /* Show smaller icons on mobile */
+    .floating-icon {
+        width: 30px;
+        height: 30px;
+        opacity: 0.6;
+    }
+    
+    /* Mobile icon positioning - much closer */
+    .icon-1 { 
+        top: 15px;
+        left: -25px;
+    }
+    .icon-2 { 
+        top: 45px;
+        right: -30px;
+    }
+    .icon-3 { 
+        top: 5px;
+        right: -15px;
+    }
+    .icon-4 { 
+        bottom: 25px;
+        left: -20px;
+    }
+    .icon-5 { 
+        top: 60px;
+        left: -35px;
+    }
+    .icon-6 { 
+        top: -5px;
+        left: 15px;
+    }
+    .icon-7 { 
+        bottom: 45px;
+        right: -25px;
+    }
+    .icon-8 { 
+        bottom: 5px;
+        right: -10px;
+    }
+    .icon-9 { 
+        top: 30px;
+        right: 10px;
     }
     
     .phone-frame {
