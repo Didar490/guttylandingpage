@@ -32,25 +32,10 @@ body {
     gap: 12px;
 }
 
-.logo-mark {
+.logo-image {
     width: 40px;
     height: 40px;
-    background: linear-gradient(135deg, #7DD87A, #A8E6A3);
-    border-radius: 12px;
-    position: relative;
-}
-
-.logo-mark::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 20px;
-    height: 20px;
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 50% 0 50% 50%;
-    transform: translate(-50%, -50%) rotate(45deg);
+    object-fit: contain;
 }
 
 .logo-text {
